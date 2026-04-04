@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 from airflow.sdk import DAG
 from airflow.providers.standard.operators.python import PythonOperator
-from airflow.providers.standards.operators.bash import BashOperator
 
 
 def say_hello(**kwargs):
