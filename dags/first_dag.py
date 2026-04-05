@@ -22,7 +22,7 @@ default_args = {
 with DAG(
     dag_id="my_first_dag",
     default_args=default_args,
-    start_date=datetime(2024, 4, 2),
+    start_date=datetime(2026, 4, 2),
     catchup=False
 ) as dag:
 

@@ -10,6 +10,9 @@ venv/
 env/
 *.venv/
 
+# ignore ouput files
+output_files/
+
 # Ignore log files
 *.log
 # Ignore database files

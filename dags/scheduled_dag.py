@@ -7,7 +7,7 @@ def my_task():
 
 with DAG(
     dag_id="run_every_2_minutes",
-    start_date=datetime(2024, 1, 1),
+    start_date=datetime(2026, 1, 1),
     schedule="*/2 * * * *",   # Airflow 3.x syntax
     catchup=False,
     description="A DAG that runs every 2 minutes",
