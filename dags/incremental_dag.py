@@ -46,7 +46,7 @@ with DAG(
     default_args=default_args,
     description='Incremental load using traditional PythonOperators',
     schedule='@hourly',
-    start_date=datetime(2024, 1, 1),
+    start_date=datetime(2026, 4, 1),
     catchup=False,
     tags=['legacy_style', 'incremental'],
 ) as dag:
